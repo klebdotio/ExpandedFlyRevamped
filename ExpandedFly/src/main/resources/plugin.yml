@@ -1,0 +1,5 @@
+name: ExpandedFly
+version: ${project.version}
+main: me.klebdotio.expandedfly.ExpandedFly
+api-version: 1.13
+description: FlyPlugin for 1.13.2. auto enables on join
