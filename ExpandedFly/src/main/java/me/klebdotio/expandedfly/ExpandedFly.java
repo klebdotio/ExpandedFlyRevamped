@@ -30,7 +30,7 @@ public final class ExpandedFly extends JavaPlugin implements Listener {
         TextComponent msg = new TextComponent("Flying auto enabled on join");
         event.getPlayer().spigot().sendMessage(b0, expanded, b1, msg);
         Player player = event.getPlayer();
-        player.performCommand("fly enable");
+        player.setAllowFlight(true);
     }
 
     @Override
